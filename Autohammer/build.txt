@@ -1,0 +1,7 @@
+author = Lil' Ducky
+version = 1.0
+displayName = Autohammer Mod
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*

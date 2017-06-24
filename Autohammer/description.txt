@@ -1,0 +1,1 @@
+This mod is for builders mostly. It adds a selection of the block slope style you want to obtain with a hammer, and a toggle for it.
