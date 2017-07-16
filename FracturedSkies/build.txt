@@ -1,0 +1,9 @@
+author = Dex, Ducky, Hydra_Raptor
+version = 0.1
+displayName = FracturedSkies
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true
+autoload = true
