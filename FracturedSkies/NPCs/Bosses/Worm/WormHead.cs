@@ -13,10 +13,12 @@ namespace FracturedSkies.NPCs.Bosses.Worm
 {
     public class WormHead : ModNPC
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Eater of the Abyss");
+        }
         public override void SetDefaults()
         {
-            npc.name = "Eater of the Abyss";        //this is the npc Name
-            npc.displayName = "Eater of the Abyss";
             npc.lifeMax = 10555;        //this is the npc health
             npc.damage = 2;    //this is the npc damage
             npc.defense = 17;         //this is the npc defense

@@ -25,7 +25,9 @@ namespace FracturedSkies.Tiles.Ores
 			Main.tileFrameImportant[Type] = false;
 			Main.tileNoFail[Type] = false;
 			drop = mod.ItemType("FortuneOre");
-			AddMapEntry(new Color(0, 233, 132), "Fortune Ore");
+            ModTranslation name = CreateMapEntryName();
+            name.SetDefault("Fortune Ore");
+            AddMapEntry(new Color(0, 233, 132), name);
 			minPick = 70;
 		}
 		

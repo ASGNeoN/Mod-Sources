@@ -1,17 +1,16 @@
-using System;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Terraria;
-using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace FracturedSkies.Projectiles
 {
 	public class GuardiansDemiseProjectile : ModProjectile
 	{
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Guardians Demise");
+        }
+        public override void SetDefaults()
 		{
-			projectile.name = "";
 			projectile.width = 36;
 			projectile.height = 32;
 			projectile.friendly = true;

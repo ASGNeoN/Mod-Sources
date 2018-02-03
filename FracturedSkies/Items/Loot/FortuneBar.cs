@@ -9,12 +9,15 @@ namespace FracturedSkies.Items.Loot
 {
 	public class FortuneBar : ModItem
 	{
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Fortune Bar");
+            Tooltip.SetDefault("Some treasure stolen from the Dungeon");
+        }
+        public override void SetDefaults()
 		{
-			item.name = "Fortune Bar";
 			item.width = 14;
 			item.height = 14;
-			item.toolTip = "Some treasure stolen from the Dungeon";
 			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 1;

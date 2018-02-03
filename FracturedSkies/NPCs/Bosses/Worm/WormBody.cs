@@ -9,10 +9,12 @@ namespace FracturedSkies.NPCs.Bosses.Worm
 {    
     public class WormBody : ModNPC
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Eater of the Abyss");
+        }
         public override void SetDefaults()
         {
-            npc.displayName = "Eater of the Abyss";
-            npc.name = "Eater of the Abyss";
             npc.width = 38;               //this is where you put the npc sprite width.     important
             npc.height = 46;              //this is where you put the npc sprite height.   important
             npc.damage = 10;
@@ -44,7 +46,7 @@ namespace FracturedSkies.NPCs.Bosses.Worm
                     npc.life = 0;
                     npc.HitEffect(0, 10.0);
                     npc.active = false;
-                    NetMessage.SendData(28, -1, -1, "", npc.whoAmI, -1f, 0.0f, 0.0f, 0, 0, 0);
+                    NetMessage.SendData(28, -1, -1, null, npc.whoAmI, -1f, 0.0f, 0.0f, 0, 0, 0);
                 }
             }
 
