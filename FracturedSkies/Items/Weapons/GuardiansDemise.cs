@@ -6,14 +6,17 @@ namespace FracturedSkies.Items.Weapons
 {
 	public class GuardiansDemise : ModItem
 	{
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Guardian's Demise");
+            Tooltip.SetDefault("This could be useful for something...");
+        }
+        public override void SetDefaults()
 		{
-			item.name = "Guardian's Demise";
 			item.damage = 54;
 			item.melee = true;
 			item.width = 36;
 			item.height = 32;
-			item.toolTip = "This could be useful for something...";
 			item.useTime = 30;
 			item.useAnimation = 30;
 			item.useStyle = 1;

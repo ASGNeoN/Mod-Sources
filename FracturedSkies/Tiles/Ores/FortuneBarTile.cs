@@ -23,7 +23,9 @@ namespace FracturedSkies.Tiles.Ores
 			Main.tileShine[Type] = 1100;
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
 			drop = mod.ItemType("FortuneBar");
-			AddMapEntry(new Color(0, 233, 132), "Fortune Bar");
+            ModTranslation name = CreateMapEntryName();
+            name.SetDefault("Fortune Bar");
+            AddMapEntry(new Color(0, 233, 132), name);
 			minPick = 70;
 			TileObjectData.addTile(Type);
 		}

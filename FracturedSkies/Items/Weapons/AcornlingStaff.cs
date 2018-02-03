@@ -1,3 +1,4 @@
+using System;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -7,15 +8,18 @@ namespace FracturedSkies.Items.Weapons
 {
 	public class AcornlingStaff : ModItem
 	{
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Acornling Staff");
+            Tooltip.SetDefault("Summons an Acornling to fight for you.");
+        }
+        public override void SetDefaults()
 		{
-			item.name = "Acornling Staff";
             item.damage = 5;
             item.summon = true;
             item.mana = 10;
             item.width = 42;
             item.height = 42;
-            item.toolTip = "Summons an Acornling to fight for you.";
             item.useTime = 50;
             item.useAnimation = 50;
             item.useStyle = 1;

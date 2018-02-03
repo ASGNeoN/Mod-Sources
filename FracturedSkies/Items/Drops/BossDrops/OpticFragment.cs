@@ -5,13 +5,15 @@ namespace FracturedSkies.Items.Drops.BossDrops
 {
 	public class OpticFragment : ModItem
 	{
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Optic Fragment");
+            Tooltip.SetDefault("Part of a broken sword!" + "\nIt seems to show another world...");
+        }
+        public override void SetDefaults()
 		{
-			item.name = "Optic Fragment";
 			item.width = 40;
 			item.height = 40;
-			item.toolTip = "Part of a broken sword!";
-			item.toolTip2 = "It seems to show another world...";
 			item.value = 50000;
 			item.rare = 3;
 		}

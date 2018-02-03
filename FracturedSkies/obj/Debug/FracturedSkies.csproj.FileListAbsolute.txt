@@ -1,0 +1,11 @@
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\obj\Debug\FracturedSkies.csprojResolveAssemblyReference.cache
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\obj\Debug\FracturedSkies.csproj.CoreCompileInputs.cache
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\FracturedSkies.dll
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\FracturedSkies.pdb
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\bin\Debug\Terraria.exe
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\obj\Debug\FracturedSkies.dll
+C:\Users\mvroo\Documents\My Games\Terraria\ModLoader\Mod Sources\FracturedSkies\obj\Debug\FracturedSkies.pdb
