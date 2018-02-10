@@ -11,12 +11,12 @@ namespace FracturedSkies.Items.Drops.BossDrops
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Celestial Die");
-            Tooltip.SetDefault("Choose what weapon you want.");
+            Tooltip.SetDefault("Choose which weapon you want.");
 		}
         public override void SetDefaults()
 		{
-			item.width = 38;
-			item.height = 22;
+			item.width = 60;
+			item.height = 64;
 			item.maxStack = 99;
 			item.value = 50000;
 			item.rare = 9;
